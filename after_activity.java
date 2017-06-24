@@ -23,7 +23,7 @@ public class after_activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);//기본화면
-
+///////////////
         soundf = new SoundPool(1, AudioManager.STREAM_MUSIC, 0);//1은 한개의 사운드
         //2는 한번에 2개의 사운드 재생 audiomanager은 스트림타입 넣어줌 0은 음질
         trd_doo = soundf.load(this, R.raw.trd_doo, 1);//지금 자신의 클래스 가 제어권자
@@ -38,6 +38,8 @@ public class after_activity extends AppCompatActivity {
         trd_b_rae = soundf.load(this, R.raw.trd_b_rae, 1);
         trd_b_pa = soundf.load(this, R.raw.trd_b_pa, 1);
         trd_b_sol = soundf.load(this, R.raw.trd_b_sol, 1);
+        trd_b_la = soundf.load(this, R.raw.trd_b_la, 1);
+        trd_b_la = soundf.load(this, R.raw.trd_b_la, 1);
         trd_b_la = soundf.load(this, R.raw.trd_b_la, 1);
 
 
